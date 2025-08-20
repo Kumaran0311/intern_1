@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-image: url('background15.jpg');
+    background-position: cover;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.left {
+    flex: 25%;
+}
+
+
+.card-1 {
+    flex: 50%;
+    border-radius: 15px;
+    /* .card-1 {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 10px;
+        
+    } */
+}
+
+.sidebar {
+    flex: 25%;
+}
+
+.card-1_container {
+    display: block;
+    margin-bottom: 20px;
+    background: #fff;
+    margin: 0 0 12px;
+    padding: 0;
+    border-radius: 15px;
+    /* width: 550px; */
+}
+
+.card-1_content {
+    display: flex;
+    padding: 10px;
+    /* gap: 15px; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e525b;
+    color: white;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header h1 {
+    display: inline;
+    font-family: 'Satisfy', cursive;
+    color: #c2f2fc;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    visibility: hidden;
+    border: 1px solid white;
+    padding: 1px;
+    border-radius: 5px;
+
+}
+
+@media (max-width:700px) {
+
+    header i {
+        visibility: visible;
+
+    }
+
+    header h1 {
+
+        padding: 0px 40px;
+    }
+
+    header {
+       display: flex;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+ .book_1_and_content_1{
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+}
+
+
+
+.card-1 .Book-1 {
+    background-color: #1e525b;
+    color: #c2f2fc;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+
+
+
+}
+
+.card-1 .book_1_and_content_1 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid silver;
+}
+
+/* .card-1 .card-img1 img {
+    width: 70px;
+    height: 70px;
+} */
+
+.card-1 .bookreview_1 {
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+
+.card-1 .bookreview_1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card-1 .bookreview_1 button {
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 4px 8px;
+
+}
+
+.sidebar .flex-25_2 {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+
+
+
+
+}
+
+.flex-25_2 .card_header {
+    background-color: #1e525b;
+    border-bottom: 2px solid silver;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+
+.flex-25_2 .card_body {
+    background-color: white;
+    padding: 20px 80px;
+
+}
+
+.flex-25_2 .card_body_1 {
+    background-color: white;
+    padding: 20px 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.flex-25_2 .Subscribe_center {
+    background-color: white;
+    padding: 4px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.flex-25_2 .Subscribe_center button {
+    background-color: rgb(16, 56, 216);
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    outline: none;
+    border: none;
+}
+
+.widget{
+    display: block;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    /* padding: 10px 15px; */
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.widget-title {
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #1e525b;
+}
+
+ul.category-list,
+ul.tags-list{
+    list-style-type: none;
+    padding-left: 5px;
+    color: #6c757d;
+}
+
+ul.category-list li,
+ul.tags-list li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+ul.category-list li span.count {
+    background: #ddd;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.tags-list ,.tags-list-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tags-list li,.tags-list-2 li {
+
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+.widget-2{
+    display: block;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+.widget-title-2{
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #1e525b;
+}
+ul.tags-list-2 li {
+
+    
+}
+ul.tags-list-2{
+    
+    padding:20px;
+    color: #137cd8;
+}
+
+.next ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    color: #007bff;
+}
+
+.next ul li {
+    background-color: white;
+    padding: 8px 12px;
+    border: 1px solid #dee2e6;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #1e525b;
+
+}
+
+.footer .icons i {
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.footer .information {
+    color: white;
+}
+
+.footer .small {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.arrow i {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+    background-color: #ffc107;
+    border: 1px solid;
+    border-radius: 5px;
+}
